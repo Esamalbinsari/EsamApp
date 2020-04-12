@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EssamApp</string>
+    <string name="calc">احسب</string>
+    <string name="txt">برنامج تحويل العدد العشري إلى ثنائي</string>
+    <string name="txt2">عصام احمد البنصاري</string>
+    <string name="calculate">احسب</string>
+</resources>
