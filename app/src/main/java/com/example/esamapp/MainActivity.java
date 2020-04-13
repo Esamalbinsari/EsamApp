@@ -32,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
                     {
                     StringBuilder stringBuilder = new StringBuilder();
                     int decimal = Integer.parseInt(TextView3.getText().toString());
+                    if (decimal == 0)
+                    {
+                        TextView4.setText("0");
+                    } 
+                    else 
+                    {
                     while (decimal > 0)
                     {
                         stringBuilder.append(decimal % 2);
