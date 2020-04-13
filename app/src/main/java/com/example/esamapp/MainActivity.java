@@ -38,12 +38,13 @@ public class MainActivity extends AppCompatActivity {
                     } 
                     else 
                     {
-                    while (decimal > 0)
-                    {
-                        stringBuilder.append(decimal % 2);
-                        decimal = decimal / 2;
+                        while (decimal > 0)
+                        {
+                            stringBuilder.append(decimal % 2);
+                            decimal = decimal / 2;
+                        }
+                        TextView4.setText(stringBuilder.reverse());
                     }
-                    TextView4.setText(stringBuilder.reverse());
                 }
             }
         });
